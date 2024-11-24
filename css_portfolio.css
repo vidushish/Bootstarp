@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#back{
+    height: 100vh;
+    width: 100%;
+}
+#main{
+    position: relative;
+    color:darkslategrey;
+}
+#over1{
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    font-size: xxx-large;
+}
+#over2{
+    position: absolute;
+    top: 58%;
+    left: 45%;
+    font-size: xx-large;
+}
+.under{
+    text-decoration: underline;
+}
+#photo{
+    display: flex;
+    justify-content: center;
+
+}
+#profile{
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+#about{
+    margin-left: 450px;
+    margin-right: 400px;
+    font-size:large;
+}
+.icon-square{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+#lightblue{
+    color: lightskyblue;
+}
+.display-5{
+    font-weight:normal;
+}
